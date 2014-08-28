@@ -1,0 +1,10 @@
+GET http://a.admob.com/f0?isu=3B28CC19D5157F9702CEA9AAF955C5FC&md5=1&site_id=492534307 HTTP/1.1
+Host: a.admob.com
+Proxy-Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+Cookie: an=Af568b7d34a7ec61835b134795f0728da
+Connection: keep-alive
+Accept-Language: en-us
+User-Agent: DNB/2.1 CFNetwork/672.1.15 Darwin/14.0.0
+

@@ -1,0 +1,10 @@
+GET http://maps.google.com/maps/api/geocode/json?sensor=false&address=(null) HTTP/1.1
+Host: maps.google.com
+Proxy-Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Pragma: no-cache
+User-Agent: DNB/2.1 CFNetwork/672.1.15 Darwin/14.0.0
+

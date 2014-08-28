@@ -1,0 +1,26 @@
+POST /services/ws/companyService HTTP/1.1
+Host: ws.dbswiss.ch
+Proxy-Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Content-Length: 555
+Content-Type: text/xml; charset=utf-8
+Accept-Language: en-us
+SOAPAction: http://tempuri.org/productPull
+Connection: keep-alive
+User-Agent: DNB/2.1 CFNetwork/672.1.15 Darwin/14.0.0
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://ws.dnb.ch/services/company">
+<soapenv:Header/>
+<soapenv:Body>
+<com:CompanyProductPullRequest>
+<com:USERNAME>632278</com:USERNAME>
+<com:PASSWORD>pbcsww</com:PASSWORD>
+<com:PRODUCT_ID>SIW_PB</com:PRODUCT_ID>
+<com:DUNSNUMBER>480486489</com:DUNSNUMBER>
+<com:REGISTRATIONNUMBER_CH>CH02039130511</com:REGISTRATIONNUMBER_CH>
+<com:BID>CH1000000066809</com:BID>
+</com:CompanyProductPullRequest>
+</soapenv:Body>
+</soapenv:Envelope>
